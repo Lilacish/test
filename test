@@ -1,0 +1,8 @@
+git clone https://github.com/lilacish/test
+git checkout -b feature/login
+touch login.py
+echo "print('Login module')" > login.py
+
+git add login.py
+git commit -m "Add login module"
+git push origin feature/login
